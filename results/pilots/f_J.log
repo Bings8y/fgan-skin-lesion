@@ -1,0 +1,10 @@
+[   100] L_D -0.2106  L_G +0.9082  bound +0.2106  T_real +0.043  T_fake -0.694  58s
+[   200] L_D -0.0685  L_G +0.2268  bound +0.0685  T_real +0.032  T_fake -0.135  117s
+[   300] L_D -0.0247  L_G +0.1413  bound +0.0247  T_real +0.012  T_fake -0.060  175s
+[   400] L_D +nan  L_G +nan  bound +nan  T_real +nan  T_fake +nan  233s
+[   500] L_D +nan  L_G +nan  bound +nan  T_real +nan  T_fake +nan  291s
+[   600] L_D +nan  L_G +nan  bound +nan  T_real +nan  T_fake +nan  349s
+[   700] L_D +nan  L_G +nan  bound +nan  T_real +nan  T_fake +nan  407s
+[   800] L_D +nan  L_G +nan  bound +nan  T_real +nan  T_fake +nan  466s
+[   900] L_D +nan  L_G +nan  bound +nan  T_real +nan  T_fake +nan  524s
+[  1000] L_D +nan  L_G +nan  bound +nan  T_real +nan  T_fake +nan  582s

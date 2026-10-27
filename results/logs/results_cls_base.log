@@ -1,0 +1,54 @@
+[baseline seed 0] train n=8011 counts=[261, 411, 879, 92, 891, 5364, 113]  test n=2004
+  step 500  loss 0.4100  129s
+  step 1000  loss 0.2783  256s
+  step 1500  loss 0.0911  381s
+  step 2000  loss 0.0532  507s
+  step 2500  loss 0.0135  631s
+  step 3000  loss 0.0277  750s
+  bal_acc 0.5954  macro_f1 0.6500  auc 0.9552  acc 0.8403
+  recall {'akiec': 0.2879, 'bcc': 0.7282, 'bkl': 0.7273, 'df': 0.4348, 'mel': 0.509, 'nv': 0.9635, 'vasc': 0.5172}
+[ros seed 0] train n=17364 counts=[2000, 2000, 2000, 2000, 2000, 5364, 2000]  test n=2004
+  step 500  loss 0.4533  126s
+  step 1000  loss 0.3190  257s
+  step 1500  loss 0.0874  418s
+  step 2000  loss 0.0362  572s
+  step 2500  loss 0.0067  682s
+  step 3000  loss 0.0198  722s
+  bal_acc 0.6345  macro_f1 0.6833  auc 0.9574  acc 0.8373
+  recall {'akiec': 0.303, 'bcc': 0.7087, 'bkl': 0.7409, 'df': 0.6522, 'mel': 0.536, 'nv': 0.9485, 'vasc': 0.5517}
+[baseline seed 1] train n=8011 counts=[261, 411, 879, 92, 891, 5364, 113]  test n=2004
+  step 500  loss 0.5476  40s
+  step 1000  loss 0.3073  146s
+  step 1500  loss 0.1207  346s
+  step 2000  loss 0.0295  547s
+  step 2500  loss 0.0254  748s
+  step 3000  loss 0.0284  947s
+  bal_acc 0.5999  macro_f1 0.6602  auc 0.9471  acc 0.8408
+  recall {'akiec': 0.3788, 'bcc': 0.6699, 'bkl': 0.7409, 'df': 0.4783, 'mel': 0.482, 'nv': 0.9664, 'vasc': 0.4828}
+[ros seed 1] train n=17364 counts=[2000, 2000, 2000, 2000, 2000, 5364, 2000]  test n=2004
+  step 500  loss 0.2220  201s
+  step 1000  loss 0.1654  403s
+  step 1500  loss 0.1857  603s
+  step 2000  loss 0.0766  804s
+  step 2500  loss 0.0040  1004s
+  step 3000  loss 0.0128  1203s
+  bal_acc 0.6096  macro_f1 0.6634  auc 0.9570  acc 0.8293
+  recall {'akiec': 0.3182, 'bcc': 0.7379, 'bkl': 0.7364, 'df': 0.5217, 'mel': 0.4505, 'nv': 0.9508, 'vasc': 0.5517}
+[baseline seed 2] train n=8011 counts=[261, 411, 879, 92, 891, 5364, 113]  test n=2004
+  step 500  loss 0.5564  198s
+  step 1000  loss 0.1882  397s
+  step 1500  loss 0.1657  595s
+  step 2000  loss 0.1324  791s
+  step 2500  loss 0.0108  985s
+  step 3000  loss 0.0780  1181s
+  bal_acc 0.6234  macro_f1 0.6750  auc 0.9554  acc 0.8403
+  recall {'akiec': 0.303, 'bcc': 0.699, 'bkl': 0.7364, 'df': 0.6087, 'mel': 0.5045, 'nv': 0.9605, 'vasc': 0.5517}
+[ros seed 2] train n=17364 counts=[2000, 2000, 2000, 2000, 2000, 5364, 2000]  test n=2004
+  step 500  loss 0.5350  196s
+  step 1000  loss 0.2709  391s
+  step 1500  loss 0.1403  588s
+  step 2000  loss 0.1056  782s
+  step 2500  loss 0.0200  977s
+  step 3000  loss 0.0091  1173s
+  bal_acc 0.6293  macro_f1 0.6836  auc 0.9575  acc 0.8383
+  recall {'akiec': 0.3636, 'bcc': 0.7184, 'bkl': 0.7364, 'df': 0.5652, 'mel': 0.4775, 'nv': 0.9575, 'vasc': 0.5862}

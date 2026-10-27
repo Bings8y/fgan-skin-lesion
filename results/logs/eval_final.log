@@ -1,0 +1,19 @@
+/Users/joelprasad/FGAN Project/evaluate_gan.py:53: DeprecationWarning: The `disp` argument is deprecated and will be removed in SciPy 1.18.0.
+  covmean, _ = linalg.sqrtm(s1 @ s2, disp=False)
+real test vs real train: FID 9.67  KIDx1e3 -0.01
+pearson_8k FID 124.70  KIDx1e3 94.06
+   akiec  FID  138.67  KIDx1e3  86.34
+   bcc    FID  153.83  KIDx1e3 111.07
+   bkl    FID  125.38  KIDx1e3  74.17
+   df     FID  188.90  KIDx1e3 112.14
+   mel    FID  129.90  KIDx1e3  90.63
+   nv     FID  145.43  KIDx1e3 113.40
+   vasc   FID  204.80  KIDx1e3 118.84
+pearson_6k FID 147.70  KIDx1e3 116.72
+   akiec  FID  167.32  KIDx1e3 107.93
+   bcc    FID  199.60  KIDx1e3 162.22
+   bkl    FID  168.54  KIDx1e3 117.22
+   df     FID  216.12  KIDx1e3 131.32
+   mel    FID  143.79  KIDx1e3 101.03
+   nv     FID  164.76  KIDx1e3 134.66
+   vasc   FID  234.24  KIDx1e3 143.92

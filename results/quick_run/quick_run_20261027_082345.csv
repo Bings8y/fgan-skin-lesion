@@ -1,0 +1,117 @@
+stage,model,step,metric,value,note
+gan_training,pearson_quick,25,loss_d,1.98977,
+gan_training,pearson_quick,25,loss_g,6.31817,
+gan_training,pearson_quick,25,bound,0.27695,
+gan_training,pearson_quick,25,t_real,0.6137,
+gan_training,pearson_quick,25,t_fake,-0.19989,
+gan_training,pearson_quick,25,sec,31.1,
+gan_training,pearson_quick,50,loss_d,-0.08189,
+gan_training,pearson_quick,50,loss_g,4.18587,
+gan_training,pearson_quick,50,bound,0.37953,
+gan_training,pearson_quick,50,t_real,0.18081,
+gan_training,pearson_quick,50,t_fake,-0.23689,
+gan_training,pearson_quick,50,sec,62.3,
+gan_training,pearson_quick,75,loss_d,1.0364,
+gan_training,pearson_quick,75,loss_g,3.5873,
+gan_training,pearson_quick,75,bound,-0.60208,
+gan_training,pearson_quick,75,t_real,0.01319,
+gan_training,pearson_quick,75,t_fake,-0.3634,
+gan_training,pearson_quick,75,sec,82.1,
+gan_training,pearson_quick,100,loss_d,-0.09087,
+gan_training,pearson_quick,100,loss_g,2.79457,
+gan_training,pearson_quick,100,bound,0.27658,
+gan_training,pearson_quick,100,t_real,0.112,
+gan_training,pearson_quick,100,t_fake,-0.20502,
+gan_training,pearson_quick,100,sec,98.3,
+gan_training,pearson_quick,125,loss_d,-0.91871,
+gan_training,pearson_quick,125,loss_g,3.24571,
+gan_training,pearson_quick,125,bound,1.51633,
+gan_training,pearson_quick,125,t_real,1.01546,
+gan_training,pearson_quick,125,t_fake,-0.86914,
+gan_training,pearson_quick,125,sec,114.1,
+gan_training,pearson_quick,150,loss_d,-1.45152,
+gan_training,pearson_quick,150,loss_g,3.87967,
+gan_training,pearson_quick,150,bound,2.20074,
+gan_training,pearson_quick,150,t_real,1.41292,
+gan_training,pearson_quick,150,t_fake,-1.54692,
+gan_training,pearson_quick,150,sec,130.1,
+gan_training,pearson_quick,175,loss_d,-1.12816,
+gan_training,pearson_quick,175,loss_g,3.71554,
+gan_training,pearson_quick,175,bound,1.69493,
+gan_training,pearson_quick,175,t_real,1.15636,
+gan_training,pearson_quick,175,t_fake,-1.20369,
+gan_training,pearson_quick,175,sec,145.9,
+gan_training,pearson_quick,200,loss_d,-1.48572,
+gan_training,pearson_quick,200,loss_g,3.82213,
+gan_training,pearson_quick,200,bound,2.17856,
+gan_training,pearson_quick,200,t_real,1.4686,
+gan_training,pearson_quick,200,t_fake,-1.48316,
+gan_training,pearson_quick,200,sec,161.8,
+gan_training,pearson_quick,225,loss_d,-1.55822,
+gan_training,pearson_quick,225,loss_g,3.7222,
+gan_training,pearson_quick,225,bound,2.33075,
+gan_training,pearson_quick,225,t_real,1.56092,
+gan_training,pearson_quick,225,t_fake,-1.52821,
+gan_training,pearson_quick,225,sec,177.8,
+gan_training,pearson_quick,250,loss_d,-1.49411,
+gan_training,pearson_quick,250,loss_g,3.56189,
+gan_training,pearson_quick,250,bound,2.20654,
+gan_training,pearson_quick,250,t_real,1.46822,
+gan_training,pearson_quick,250,t_fake,-1.49079,
+gan_training,pearson_quick,250,sec,193.8,
+gan_training,pearson_quick,275,loss_d,-1.53774,
+gan_training,pearson_quick,275,loss_g,3.45687,
+gan_training,pearson_quick,275,bound,2.3158,
+gan_training,pearson_quick,275,t_real,1.55246,
+gan_training,pearson_quick,275,t_fake,-1.54713,
+gan_training,pearson_quick,275,sec,209.6,
+gan_training,pearson_quick,300,loss_d,-1.40091,
+gan_training,pearson_quick,300,loss_g,3.50518,
+gan_training,pearson_quick,300,bound,2.08523,
+gan_training,pearson_quick,300,t_real,1.40866,
+gan_training,pearson_quick,300,t_fake,-1.41713,
+gan_training,pearson_quick,300,sec,225.5,
+sample_quality,pearson_quick,,fid,340.228322,300 it; 700 generated vs 2000 real
+sample_quality,pearson_quick,,kid_x1000,331.401488,300 it
+sample_quality,pearson_final,,fid,125.842673,"trained model, 8000 it; 700 generated vs 2000 real"
+sample_quality,pearson_final,,kid_x1000,83.602558,"trained model, 8000 it"
+classifier,baseline,400,accuracy,0.82485,"400 steps, seed 0"
+classifier,baseline,400,balanced_accuracy,0.580678,"400 steps, seed 0"
+classifier,baseline,400,macro_f1,0.624659,"400 steps, seed 0"
+classifier,baseline,400,macro_precision,0.693748,"400 steps, seed 0"
+classifier,baseline,400,macro_recall,0.580678,"400 steps, seed 0"
+classifier,baseline,400,auc_ovr_macro,0.962502,"400 steps, seed 0"
+classifier,baseline,400,recall_akiec,0.3485,"400 steps, seed 0"
+classifier,baseline,400,recall_bcc,0.6408,"400 steps, seed 0"
+classifier,baseline,400,recall_bkl,0.6909,"400 steps, seed 0"
+classifier,baseline,400,recall_df,0.4348,"400 steps, seed 0"
+classifier,baseline,400,recall_mel,0.3964,"400 steps, seed 0"
+classifier,baseline,400,recall_nv,0.9672,"400 steps, seed 0"
+classifier,baseline,400,recall_vasc,0.5862,"400 steps, seed 0"
+classifier,ros,400,accuracy,0.828343,"400 steps, seed 0"
+classifier,ros,400,balanced_accuracy,0.631496,"400 steps, seed 0"
+classifier,ros,400,macro_f1,0.658111,"400 steps, seed 0"
+classifier,ros,400,macro_precision,0.69841,"400 steps, seed 0"
+classifier,ros,400,macro_recall,0.631496,"400 steps, seed 0"
+classifier,ros,400,auc_ovr_macro,0.959939,"400 steps, seed 0"
+classifier,ros,400,recall_akiec,0.3939,"400 steps, seed 0"
+classifier,ros,400,recall_bcc,0.7087,"400 steps, seed 0"
+classifier,ros,400,recall_bkl,0.6818,"400 steps, seed 0"
+classifier,ros,400,recall_df,0.5652,"400 steps, seed 0"
+classifier,ros,400,recall_mel,0.5045,"400 steps, seed 0"
+classifier,ros,400,recall_nv,0.9456,"400 steps, seed 0"
+classifier,ros,400,recall_vasc,0.6207,"400 steps, seed 0"
+classifier,fgan,400,accuracy,0.79491,"400 steps, seed 0"
+classifier,fgan,400,balanced_accuracy,0.465428,"400 steps, seed 0"
+classifier,fgan,400,macro_f1,0.513705,"400 steps, seed 0"
+classifier,fgan,400,macro_precision,0.747271,"400 steps, seed 0"
+classifier,fgan,400,macro_recall,0.465428,"400 steps, seed 0"
+classifier,fgan,400,auc_ovr_macro,0.946102,"400 steps, seed 0"
+classifier,fgan,400,recall_akiec,0.2727,"400 steps, seed 0"
+classifier,fgan,400,recall_bcc,0.5631,"400 steps, seed 0"
+classifier,fgan,400,recall_bkl,0.6,"400 steps, seed 0"
+classifier,fgan,400,recall_df,0.0435,"400 steps, seed 0"
+classifier,fgan,400,recall_mel,0.2883,"400 steps, seed 0"
+classifier,fgan,400,recall_nv,0.9732,"400 steps, seed 0"
+classifier,fgan,400,recall_vasc,0.5172,"400 steps, seed 0"
+run,,,total_seconds,361.591489,

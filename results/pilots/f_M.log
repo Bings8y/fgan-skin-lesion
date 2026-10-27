@@ -1,0 +1,9 @@
+[   100] L_D +0.4776  L_G +4.1685  bound +0.4194  T_real +0.415  T_fake -0.274  85s
+[   200] L_D -1.3180  L_G +3.5651  bound +2.0115  T_real +1.328  T_fake -1.401  171s
+[   300] L_D -1.0826  L_G +3.5287  bound +1.6300  T_real +1.135  T_fake -1.100  261s
+[   400] L_D -0.8264  L_G +3.2005  bound +1.2693  T_real +0.853  T_fake -0.848  350s
+[   500] L_D -0.6854  L_G +3.1892  bound +1.0833  T_real +0.725  T_fake -0.683  461s
+[   600] L_D -0.6694  L_G +3.2830  bound +1.0758  T_real +0.693  T_fake -0.691  572s
+[   700] L_D -0.7561  L_G +3.4313  bound +1.1729  T_real +0.779  T_fake -0.760  669s
+[   800] L_D -0.7763  L_G +3.4256  bound +1.2127  T_real +0.814  T_fake -0.808  755s
+done

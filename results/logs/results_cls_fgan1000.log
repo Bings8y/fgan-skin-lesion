@@ -1,0 +1,27 @@
+[fgan seed 0] train n=11364 counts=[1000, 1000, 1000, 1000, 1000, 5364, 1000]  test n=2004
+  step 500  loss 0.2889  40s
+  step 1000  loss 0.3158  79s
+  step 1500  loss 0.1282  119s
+  step 2000  loss 0.0568  159s
+  step 2500  loss 0.0751  198s
+  step 3000  loss 0.0604  238s
+  bal_acc 0.5978  macro_f1 0.6448  auc 0.9541  acc 0.8333
+  recall {'akiec': 0.2879, 'bcc': 0.7087, 'bkl': 0.7136, 'df': 0.4348, 'mel': 0.536, 'nv': 0.9515, 'vasc': 0.5517}
+[fgan seed 1] train n=11364 counts=[1000, 1000, 1000, 1000, 1000, 5364, 1000]  test n=2004
+  step 500  loss 0.3164  40s
+  step 1000  loss 0.3305  79s
+  step 1500  loss 0.3083  119s
+  step 2000  loss 0.0493  159s
+  step 2500  loss 0.0748  198s
+  step 3000  loss 0.0137  238s
+  bal_acc 0.6101  macro_f1 0.6440  auc 0.9550  acc 0.8348
+  recall {'akiec': 0.3182, 'bcc': 0.6602, 'bkl': 0.7136, 'df': 0.5217, 'mel': 0.473, 'nv': 0.9635, 'vasc': 0.6207}
+[fgan seed 2] train n=11364 counts=[1000, 1000, 1000, 1000, 1000, 5364, 1000]  test n=2004
+  step 500  loss 0.5287  40s
+  step 1000  loss 0.2242  80s
+  step 1500  loss 0.0636  120s
+  step 2000  loss 0.0785  159s
+  step 2500  loss 0.0470  199s
+  step 3000  loss 0.0684  239s
+  bal_acc 0.5748  macro_f1 0.6308  auc 0.9534  acc 0.8358
+  recall {'akiec': 0.2879, 'bcc': 0.7087, 'bkl': 0.7182, 'df': 0.3478, 'mel': 0.518, 'nv': 0.9605, 'vasc': 0.4828}

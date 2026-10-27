@@ -1,0 +1,7 @@
+# First full-length attempt (killed at iteration ~550); lines copied from the console log.
+# Config: pearson, g_loss nonsat, lr_d 2e-4, lr_g 5e-5, n_critic 2, sum pool, extra_from 2, mbstd 4, r1 0.1
+[   100] L_D -400.6073  L_G -118.6708  bound +400.6073  T_real +501.668  T_fake +2.341  117s
+[   200] L_D -650.7159  L_G +1.3977  bound +650.7159  T_real +651.962  T_fake -1.465  269s
+[   300] L_D -52.8544  L_G +0.1770  bound +52.8544  T_real +52.938  T_fake -0.515  422s
+[   400] L_D +895.7200  L_G -0.5095  bound -895.7200  T_real +151.471  T_fake +3.946  574s
+[   500] L_D +2.2441  L_G +0.3305  bound -2.2441  T_real +164.810  T_fake -1.199  726s

@@ -1,0 +1,9 @@
+[    50] L_D +0.0957  L_G +0.0059  bound -0.0957  T_real +0.505  T_fake +0.265  29s
+[   100] L_D +0.0227  L_G +0.0907  bound -0.0227  T_real -0.068  T_fake -0.052  58s
+[   150] L_D +0.0077  L_G +0.0524  bound -0.0077  T_real -0.026  T_fake -0.020  87s
+[   200] L_D +0.0119  L_G +0.0375  bound -0.0119  T_real -0.009  T_fake -0.000  116s
+[   250] L_D +0.0025  L_G +0.0240  bound -0.0025  T_real -0.003  T_fake -0.001  146s
+[   300] L_D +0.0034  L_G +0.0279  bound -0.0034  T_real +0.006  T_fake +0.007  175s
+[   350] L_D +0.0181  L_G +0.0175  bound -0.0181  T_real +0.021  T_fake +0.027  204s
+[   400] L_D +0.0057  L_G +0.0402  bound -0.0057  T_real -0.018  T_fake -0.015  233s
+done

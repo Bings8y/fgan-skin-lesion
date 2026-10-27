@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Large data and model checkpoints (regenerate with run_all.sh)
+data/
+runs/
+*.pt
+*.npz
+
+# OS / editor / Office lock files
+.DS_Store
+~$*
+.claude/
+
+# Conference paper (kept local only)
+journal/
+
+# Report, presentation and study guides (kept local only)
+report/
+*.docx
+*.pptx
+FGAN report for skin lesion.pdf
+FGAN Skin Lesion E-Report.pdf
+FGAN Study Guide.pdf
+FGAN_Beginners_Guide.pdf
